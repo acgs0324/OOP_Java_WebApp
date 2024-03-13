@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Data Web App</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      color: #FFFFFF;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 100px auto;
+      text-align: center;
+    }
+
+    h1 {
+      color: #0b0d40;
+      font-size: 36px;
+      letter-spacing: 2px;
+      margin-bottom: 50px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #b3cde0;
+      color: #0b0d40;
+      font-size: 18px;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 50px;
+      margin-right: 20px;
+      transition: background-color 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #6497b1;
+    }
+
+    .button:active {
+      transform: translateY(1px);
+    }
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Welcome to Patient Data Web App</h1>
+  <div class="buttons">
+    <a href="patientList.html" class="button">View Patient List</a>
+    <a href="search.html" class="button">Search Patients</a>
+  </div>
+</div>
+</body>
+</html>
